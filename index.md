@@ -4,3 +4,7 @@ This page aims to show homeworks and project that I completed in IE582 class. Yo
 [repository](https://github.com/BU-IE-582/fall-24-OguzhanEngin) here.
 
 ## Homeworks
+
+### Homework 1
+This homework is about application of PCA and Linear Regression models to data about certain antenna type.
+You can check my [study](https://github.com/BU-IE-582/fall-24-OguzhanEngin/files/HW_1/HW1.html) here.
