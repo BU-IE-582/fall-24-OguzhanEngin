@@ -9648,7 +9648,18 @@ to more accurately represent complex, nonlinear electromagnetic behavior?</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>PCA models assume input variables to have linear relation between themselves and that they are normally distributed. Both these assumptions are problematic in this case. First, many input parameters that have no linear relation to other design parameters. And also these parameters are stricly positive, so not normally distributed (we apply strandardization so it lessens this problem, however, applying standardization to such data is problematic itself.)</p>
 <p>Linear Regression models assume linear relations between design parameters and outputs, which does not hold for this problem because of non-linear effect of design parameters to electromagnetic behaviour of antennas. Other assumptions of Linear Regression are also problematic such as normality of residuals (since magnitude values are between 0-1 and others are between -1-1), multicollinearity (since input parameters are physical design parameters, there are high correlation between some of them). I think that test results reflect these problems as they are not that good.</p>
-<p>For both models, linearity problem can be solved by adding transformed design parameters to the input space, for example second degree polynomial terms of the current design parameters. By doing this, we can enable both type of models to account for these new non-linear variables in a linear way. For linear regression models, increaasing sample size and penalization might be needed because there would be high number of features.</p>
+<p>For both models, linearity problem can be solved by adding transformed design parameters to the input space, for example second degree polynomial terms of the current design parameters. By doing this, we can enable both type of models to account for these new non-linear variables in a linear way. For linear regression models, increasing sample size and penalization might be needed because there would be high number of features.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e921bc28-a9a0-4439-a290-8e6d35a15ad3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Link for the jupyter notebook file in the repository: <a href="https://github.com/BU-IE-582/fall-24-OguzhanEngin/blob/main/files/HW_1/HW1.ipynb">https://github.com/BU-IE-582/fall-24-OguzhanEngin/blob/main/files/HW_1/HW1.ipynb</a></p>
 </div>
 </div>
 </div>
