@@ -12,3 +12,7 @@ You can check my [study](https://bu-ie-582.github.io/fall-24-OguzhanEngin/files/
 ### Homework 2
 The goal of this study is to find out whether bookmakers set efficient bets for soccer games using Decision Tree models.
 You can check my [study](https://bu-ie-582.github.io/fall-24-OguzhanEngin/files/HW_2/HW2.html) here.
+
+### Project
+The goal of this study is to predict football match outcomes and develop a live betting strategy with these predictors.
+You can check my [study](https://bu-ie-582.github.io/fall-24-OguzhanEngin/files/Project/IE582_Report.html) here.
